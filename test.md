@@ -10,7 +10,7 @@ tester
 
 [TritonLink](https://students.ucsd.edu/)
 
-![Image](https://img.pokemondb.net/artwork/large/chespin.jpg)
+![Image](https://img.pokemondb.net/artwork/chespin.jpg)
 
 > Blockquote
 
@@ -21,3 +21,14 @@ tester
 1. one
 2. two
 3. three
+
+Horizontal rule:
+---
+
+`Inline code` with backticks
+
+```
+# code block
+print '3 backticks or'
+print 'indent 4 spaces'
+```
