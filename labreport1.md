@@ -9,6 +9,8 @@ to install Java 17 for Windows, Mac, or Linux, and complete the setup.
 * After the JDK is installed and setup, install VS Code for Windows, Mac, or Linux using [this link](https://code.visualstudio.com/).
 * When VS Code, is setup and opened, you will be greeted by this screen:
 
+![Image](vs-welcome.png)
+
 You will now be able to open/create folders and Java files and access the terminal.
 
 ## Step 2: Remotely Connecting
@@ -17,9 +19,11 @@ You will now be able to open/create folders and Java files and access the termin
 > **Bash Terminal**
 
 * First, we will need to learn how to use a Bash terminal. Open a new terminal by clicking on Terminal on the top of the screen, and selecting New Terminal.
-* Press CTRL + Shift + P to open the command palette and type **"Select Default Profile"**.
+* Press `CTRL + Shift + P` to open the command palette and type **"Select Default Profile"**.
 * After clicking on Select Default Profile, click on **"Git Bash"**.
 * Now you will be able to select a Bash terminal by clicking on the + button on the terminal menu.
+
+![Image](new-bash-terminal.png)
 
 > **Setting up your CSE 15L account**
 
@@ -34,9 +38,13 @@ If you are prompted to enter your password in several times or get an "Access de
 so that your password is activated.
 * After your password has been entered, you will be greeted with a welcome message and a menu similar to this:
 
+![Image](remote-connecting.png)
+
 ## Step 3: Running Commands
 * On the remotely connected menu, you are now able to type in commands. For example, using the command `ls /home/linux/ieng6/cs15lwi23/cs15lwi23art` shows the file hello.txt.
 Then using the command `cat /home/linux/ieng6/cs15lwi23/public/hello.txt` would print out a welcome message.
+
+![Image](command-example.png)
 
 > **Congratulations! You have successfully setup VS Code, remote connecting, and have tested commands!**
 
