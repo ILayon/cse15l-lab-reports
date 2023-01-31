@@ -1,6 +1,10 @@
 # StringServer - Isabelle Layon
 ## Code for StringServer
 
+![Image](stringserver-1.png)
+
+![Image](stringserver-2.png)
+
 ## Using /add-message
 > Try #1
 
