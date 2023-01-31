@@ -35,7 +35,7 @@ when on the local StringServer.
 
 ```
 @Test
-public void testReversedWithElements() {
+public void testReversedWithMoreElements() {
   int[] input1 = { 4, 5, 6 };
   assertArrayEquals(new int[]{ 6, 5, 4 }, ArrayExamples.reversed(input1));
  }
@@ -78,4 +78,6 @@ public void testReversedWithElements() {
 
 ## What I Learned in Week 3
 * During week 3, I learned the definitions of symptoms and failure-inducing inputs, along with how to identify or create failure-inducing inputs and
-how to identify symptoms in a Java program. 
+how to identify symptoms in a Java program. A failure-inducing input is an input that, when tested, causes a program to produce an error, such as when an
+array containing elements produced an error for the reversed method. A sympton is the behaviors exhibited by a program, which could be intended (ie. what is displayed
+in a website), or could be the results of a bug in the program (ie. an IndexOutOfBounds error).
