@@ -8,6 +8,8 @@
 ## Using /add-message
 > Try #1
 
+![Image](add-message-1.png)
+
 * The StringServer's main method is first called, in order to read the terminal input `java StringServer 4000` and start a new local server with port 4000.
 In order to add "Hello" to string, the handleRequest method takes in the URL, checks if the path contains `"/add-message"`, and checks if there is the query contains `"="`.
 If there is an `"s"` after the `"="`, then a string will be added.
@@ -18,6 +20,8 @@ handleRequest also checks the url for an `"="` and `"s"` in the query.
 *After this request, the value of myString has been updated to "Hello". `/n` was not used while updating the value of myString, since myString was initially empty.
 
 > Try #2
+
+![Image](add-message-2.png)
 
 * We do not need to start a new local server, so the main method is not called. The handleRequest method takes in the new URL, and adds the String "Have a nice week!",
 after checking the path and query.
@@ -32,7 +36,9 @@ Have a nice week!
 
 when on the local StringServer.
 
-## Lab 3 Bug: 
+## Lab 3 Bug:
+
+![Image](reversed-before.png)
 
 > Inputs
 * A failure inducing input for the program would be the Junit test
@@ -57,7 +63,11 @@ public void testReversedWithMoreElements() {
  > Symptom
  * Failure inducing input:
 
+![Image](fail-input.png)
+
  * Non Failure inducing input:
+
+![Image](nonfail-input.png)
 
  > Bug 
  * Before fixing:
