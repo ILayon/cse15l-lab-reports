@@ -16,8 +16,8 @@ If there is an `"s"` after the `"="`, then a string will be added.
 * The port number, which is args[0] inside String[] args, is a relevent argument for the main method, as it becomes the local port used for a StringServer.
 The relevant argument for handleRequest is a URI url, which the method checks to see if the url contains `/add-message`. It will return `"404 Not Found!"` elsewise.
 handleRequest also checks the url for an `"="` and `"s"` in the query.
-*String myString is a relevant field of the class, and is intialized as an empty String inside of the Handler class.
-*After this request, the value of myString has been updated to "Hello". `/n` was not used while updating the value of myString, since myString was initially empty.
+* String myString is a relevant field of the class, and is intialized as an empty String inside of the Handler class.
+* After this request, the value of myString has been updated to "Hello". `/n` was not used while updating the value of myString, since myString was initially empty.
 
 > Try #2
 
