@@ -8,7 +8,7 @@
 ## Using /add-message
 > Try #1
 
-![Image](add-message-1.png)
+![Image](addmessage-1.png)
 
 * The StringServer's main method is first called, in order to read the terminal input `java StringServer 4000` and start a new local server with port 4000.
 In order to add "Hello" to string, the handleRequest method takes in the URL, checks if the path contains `"/add-message"`, and checks if there is the query contains `"="`.
@@ -21,7 +21,7 @@ handleRequest also checks the url for an `"="` and `"s"` in the query.
 
 > Try #2
 
-![Image](add-message-2.png)
+![Image](addmessage-2.png)
 
 * We do not need to start a new local server, so the main method is not called. The handleRequest method takes in the new URL, and adds the String "Have a nice week!",
 after checking the path and query.
