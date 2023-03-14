@@ -1,5 +1,6 @@
 # CSE Labs Done Quicker - Isabelle Layon
 > For this lab report, I chose to write a bash script in order to execute the commands from Lab Report 4 quicker than if I had executed them myself.
+
 > **Citation:** I researched the `sed -i` command through prompting [ChatGPT.](https://chat.openai.com/)
 
 ## Step 1: Preparation
@@ -16,12 +17,18 @@ beginning with removing the lab7 directory and an output.txt file, and ending wi
 ** I prompted ChatGPT in order to get help on editing the ListExamples.java file without using `nano` (elaborated on Step 3).
 * I finished with this script:
 
+![s1](listScript1.png)
+![s2](listScript2.png)
+
 * Lastly, I exited `nano` by pressing `Ctrl-O` and `enter` to save my bash script, and then `Ctrl-X`.
 
 ## Step 3: Prompting ChatGPT for help
 
 * I was confused on how I could edit the `ListExamples.java` file through a bash script, since I would usually use
 `nano` to edit the error, so I decided to ask ChatGPT for a command.
+
+![gpt1](chatgpt1.png)
+![gpt2](chatgpt2.png)
 
 * ChatGPT suggested the `sed -i` command, which I was not familiar with. This command would search a file for specified text, and
 replace it with new text which is also specified. I also asked how to use the command for a single line, since 
@@ -33,10 +40,15 @@ replace it with new text which is also specified. I also asked how to use the co
 
 * I started an online timer, then switched back to my terminal and entered `bash listScript.sh`. The commands worked as expected:
 
+![t1](terminal1.png)
+![t2](terminal2.png)
+
 * After the commands executed, I checked back on the timer and only 18 seconds had passed, which is much much quicker than
 if I had been manually doing the commands.
 
 * I also double checked that the changes were committed and pushed to GitHub, which they successfully were.
+
+![gh](gitcommit.png)
 
 * Overall, although it may take some time to create and edit the bash script, it can save a lot of time in the long term especially
 if you need to constantly use these commands. 
