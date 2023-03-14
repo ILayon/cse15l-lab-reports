@@ -1,5 +1,5 @@
 # CSE Labs Done Quicker - Isabelle Layon
-> For this lab report, I chose to write a bash script in order to execute the commands from Lab Report 4 quicker than if I had executed them myself.
+> For this lab report, I chose to write a bash script in order to execute the commands from Lab Report 4 quicker than if I had executed them manually.
 
 > **Citation:** I researched the `sed -i` command through prompting [ChatGPT.](https://chat.openai.com/)
 
@@ -50,5 +50,5 @@ if I had been manually doing the commands.
 
 ![gh](gitcommit.png)
 
-* Overall, although it may take some time to create and edit the bash script, it can save a lot of time in the long term especially
-if you need to constantly use these commands. 
+* Overall, although it may take some time to create and edit a bash script, it can save a lot of time in the long term especially if
+certain commands need to be used frequently. 
