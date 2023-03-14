@@ -13,8 +13,8 @@
 ## Step 2: Editing listScript.sh
 
 * I began editing by looking through my steps from Lab Report 4 and copying them into my bash script, 
-beginning with removing the lab7 directory and an output.txt file, and ending with the `git commit` and `git push` commands.
-** I prompted ChatGPT in order to get help on editing the ListExamples.java file without using `nano` (elaborated on Step 3).
+beginning with removing the lab7 directory and an `output.txt` file, and ending with the `git commit` and `git push` commands.
+    * I prompted ChatGPT in order to get help on editing the `ListExamples.java` file without using `nano` (elaborated on Step 3).
 * I finished with this script:
 
 ![s1](listScript1.png)
@@ -32,7 +32,7 @@ beginning with removing the lab7 directory and an output.txt file, and ending wi
 
 * ChatGPT suggested the `sed -i` command, which I was not familiar with. This command would search a file for specified text, and
 replace it with new text which is also specified. I also asked how to use the command for a single line, since 
-`index1 += 1` is supposed to occur on line 39 of `ListExamples.java`, but not on line 49. 
+`index1 += 1` is supposed to occur on line 39 of `ListExamples.java`, but not on line 43. 
 
 ## Step 4: Using the bash script
 
@@ -43,7 +43,7 @@ replace it with new text which is also specified. I also asked how to use the co
 ![t1](terminal1.png)
 ![t2](terminal2.png)
 
-* After the commands executed, I checked back on the timer and only 18 seconds had passed, which is much much quicker than
+* After the commands executed, I checked back on the timer and only 18 seconds had passed, which is much more quicker than
 if I had been manually doing the commands.
 
 * I also double checked that the changes were committed and pushed to GitHub, which they successfully were.
